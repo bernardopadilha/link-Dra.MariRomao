@@ -14,10 +14,12 @@ export default function Home() {
       <title>Links | Dra.Mariana Romão</title>
     </Head>
 
+    <h3>Agendamentos</h3>
+
       <button
         type="button"
         className={styles.button}
-        onClick={() => handleButtonLink('https://api.whatsapp.com/send?phone=5548991572774&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dr.Mariana%C2%A0Rom%C3%A3o%F0%9F%91%A9%F0%9F%8F%BC%E2%80%8D%E2%9A%95%0A')}
+        onClick={() => handleButtonLink('https://wa.me/5548991572774?text=Ol%C3%A1%2C+gostaria+de+agendar+um+exame+com+a+Dra+Mariana%C2%A0Rom%C3%A3o%21')}
       >
         Clínica Romão
         <span> 
@@ -29,21 +31,18 @@ export default function Home() {
       <button
         type="button"
         className={styles.button}
-        onClick={()=> handleButtonLink('https://api.whatsapp.com/send?phone=5548996381218&text=Ol%C3%A1!%20Gostaria%20de%20agendar%20uma%20consulta%20com%20a%20Dr.Mariana%C2%A0Rom%C3%A3o%F0%9F%91%A9%F0%9F%8F%BC%E2%80%8D%E2%9A%95%0A')}
+        onClick={()=> handleButtonLink('https://wa.me/5548996381218?text=Ol%C3%A1%2C+gostaria+de+agendar+um+exame+com+a+Dra+Mariana%C2%A0Rom%C3%A3o%21')}
       >
       Clínica Romão
       <span> 
       <MapPin size={20} color='#D90000' />
-        Criciúma - Ostermann
+        Ararangua - Ostermann
       </span>
       </button>
 
     <div className={styles.separator} > <CaretDown size={50} color="#FFF"/> </div>
 
-    <footer>
-      <h2>Obrigado!</h2>
-      <span>@romaoclinica</span>
-    </footer>
+    
   </div>
   )
 }

@@ -2,6 +2,19 @@
   padding: 0 2rem;
   max-width: 600px;
   margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  h3 {
+    font-size: 1.75rem;
+    color: var(--red);
+    font-weight: 600;
+    margin-bottom: 4.5rem;
+    margin-top: 3.25rem;
+    color: #563A48;
+  }
 
   .separator {
     margin: 4rem 0;
@@ -12,22 +25,6 @@
       font-size: 1.5rem;
       color: var(--gray);
       opacity: 0.4;
-    }
-  }
-
-
-  footer {
-    margin-top: 3rem;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #FFF;
-
-    span {
-      opacity: 0.6;
-      font-weight: 500;
     }
   }
 }
