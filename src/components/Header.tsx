@@ -8,9 +8,9 @@ export function Header() {
           <a href="#" title="Clínica Romão" ></a>
         </div>
         <div className={styles.title}>
-          <h2>Dra. Mariana Romão</h2>
+          <h3>Dra. Mariana Romão</h3>
           <h3>Médica Radiologista</h3>
-          <h3>CRM/SC 23222 | RQE 21538</h3>
+          <h4>CRM/SC 23222 | RQE 21538</h4>
         </div>
       </div>
       <div className={styles.divider}></div>
