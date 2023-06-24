@@ -9,7 +9,7 @@ export function Header() {
         </div>
         <div className={styles.title}>
           <h3>Dra. Mariana Romão</h3>
-          <h3>Médica Radiologista</h3>
+          <h4>Médica Radiologista</h4>
           <h4>CRM/SC 23222 | RQE 21538</h4>
         </div>
       </div>

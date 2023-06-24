@@ -36,7 +36,7 @@ export default function Home() {
       Clínica Romão
       <span> 
       <MapPin size={20} color='#D90000' />
-        Ararangua - Ostermann
+        Araranguá - Ostermann
       </span>
       </button>
 
