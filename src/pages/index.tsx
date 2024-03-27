@@ -19,7 +19,7 @@ export default function Home() {
       <button
         type="button"
         className={styles.button}
-        onClick={() => handleButtonLink('https://wa.me/5548991572774?text=Ol%C3%A1%2C+gostaria+de+agendar+um+exame+com+a+Dra+Mariana%C2%A0Rom%C3%A3o%21')}
+        onClick={() => handleButtonLink('https://wa.me/5548992041740?text=Ol%C3%A1%2C+gostaria+de+agendar+um+exame+com+a+Dra+Mariana%C2%A0Rom%C3%A3o%21')}
       >
         Clínica Romão
         <span> 
